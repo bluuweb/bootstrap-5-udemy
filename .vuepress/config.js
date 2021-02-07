@@ -21,6 +21,7 @@ module.exports = {
         // '/01-fundamentos/',
         '/01-bases/',
         '/02-componentes/',
+        '/03-practica/',
         '/10-parcel/',
       ]
   }
