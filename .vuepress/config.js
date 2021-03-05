@@ -22,6 +22,7 @@ module.exports = {
         '/01-bases/',
         '/02-componentes/',
         '/03-practica/',
+        '/04-formulario/',
         '/10-parcel/',
       ]
   }
