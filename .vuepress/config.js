@@ -23,7 +23,8 @@ module.exports = {
         '/02-componentes/',
         '/03-practica/',
         '/04-formulario/',
-        '/10-parcel/',
+        '/05-sass/',
+        // '/10-parcel/',
       ]
   }
  
