@@ -4,7 +4,9 @@
 - Agregar Firebase [documentación](https://firebase.google.com/docs/web/setup?authuser=0#add-sdks-initialize)
 - Auth con Google [documentación](https://firebase.google.com/docs/auth/web/google-signin?authuser=0)
 - Observa cambios entre instantáneas [documentación](https://firebase.google.com/docs/firestore/query-data/listen?authuser=0#view_changes_between_snapshots)
-- 
+- Reglas [documentación](https://firebase.google.com/docs/firestore/security/rules-structure?authuser=0#basic_readwrite_rules)
+- Curso de Javascript Moderno [youtube](https://www.youtube.com/watch?v=Z4TuS0HEJP8&list=PLPl81lqbj-4I2ZOzryjPKxfhK3BzTlaJ7)
+- Tutorial de JS [youtube](https://www.youtube.com/watch?v=pnLHUyO96QA&list=PLPl81lqbj-4K4bSaIziJsu3GtCiytRpEL)
 
 ## HTML
 ```html
@@ -187,5 +189,18 @@ const contenidoChat = user => {
                 }
             });
         })
+}
+```
+
+## Reglas
+```
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /chat/{doc} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null;
+    }
+  }
 }
 ```
