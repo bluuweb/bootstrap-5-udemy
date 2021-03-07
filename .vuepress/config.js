@@ -24,6 +24,7 @@ module.exports = {
         '/03-practica/',
         '/04-formulario/',
         '/05-sass/',
+        '/06-chat/',
         // '/10-parcel/',
       ]
   }
