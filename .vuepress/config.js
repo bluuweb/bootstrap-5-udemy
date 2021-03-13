@@ -25,6 +25,7 @@ module.exports = {
         '/04-formulario/',
         '/05-sass/',
         '/06-chat/',
+        '/07-range/',
         // '/10-parcel/',
       ]
   }
