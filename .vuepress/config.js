@@ -26,6 +26,7 @@ module.exports = {
         '/05-sass/',
         '/06-chat/',
         '/07-range/',
+        '/08-php/',
         // '/10-parcel/',
       ]
   }
