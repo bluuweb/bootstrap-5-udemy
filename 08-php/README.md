@@ -4,6 +4,7 @@ Vamos a configurar un formulario con envío de formulario a través de PHP.
 ## Requisitos
 - Hosting con PHP y habilitada la función mail (puede ser hosting compartido)
 - Servidor Apache [xampp](https://www.apachefriends.org/es/index.html)
+- Clear Cache [Extensión navegador](https://chrome.google.com/webstore/detail/clear-cache/cppjkneekbjaeellbfkmgnhonkkjfpdn?hl=es)
 - Estudiar sección de Formularios 👍
 
 ## HTML
