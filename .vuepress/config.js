@@ -27,6 +27,7 @@ module.exports = {
         '/06-chat/',
         '/07-range/',
         '/08-php/',
+        '/11-offcanvas/',
         // '/10-parcel/',
       ]
   }
